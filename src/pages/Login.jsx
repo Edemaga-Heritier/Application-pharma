@@ -1,15 +1,16 @@
 import{useNavigate} from'react-router-dom'
 
 const Login = () => {
+
 const navigate = useNavigate();
 const handleclick = () =>{
-  navigate('/home')
+  navigate('/Home')
 }
 
   return (
     <>
     <h1> Login</h1>
-    <button onClick={handleclick}> connexion</button>
+    <button onClick={handleclick}> connexion </button>
     </>
     
   )

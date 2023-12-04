@@ -1,5 +1,11 @@
 
 
+
+
+
+
+
+
 const SingleProduct = () => {
   return (
     <div>SingleProduct</div>
@@ -7,3 +13,6 @@ const SingleProduct = () => {
 }
 
 export default SingleProduct
+
+        
+

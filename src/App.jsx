@@ -16,31 +16,21 @@ function App() {
   return (
    <BrowserRouter>
    <NavBar />
-
-   
    <Routes>
+
     <Route path='/' element={<Login/>}/>
+
     <Route path='/' element={<Layout/>}/>
     <Route path='/home' element={<Home />}/>
     <Route/>
-    
+
     <Route path='/about' element={<About/>} />
     <Route path='/products' element={<Products />} /> 
      <Route index element={<ProductList />} />
     <Route path='id' element={<SingleProduct/>} />
-    
-    
     <Route/>
 
-
-    
-
-
    </Routes>
-   
-   
-   
-   
    </BrowserRouter>
   )
 }
